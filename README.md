@@ -23,11 +23,11 @@ npm install ui5-middleware-proxy-basicauth --save-dev
 
 ```json
 "devDependencies": {
-    "ui5-middleware-simpleproxy": "*"
+    "ui5-middleware-proxy-basicauth": "*"
 },
 "ui5": {
   "dependencies": [
-    "ui5-middleware-simpleproxy"
+    "ui5-middleware-proxy-basicauth"
   ]
 }
 ```
@@ -39,7 +39,7 @@ npm install ui5-middleware-proxy-basicauth --save-dev
 ```yaml
 server:
   customMiddleware:
-  - name: ui5-middleware-simpleproxy
+  - name: ui5-middleware-proxy-basicauth
     afterMiddleware: compression
     mountPath: /odata
     configuration:
