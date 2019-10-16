@@ -1,5 +1,5 @@
 {
-  "name": "ui5-middleware-simpleproxy",
+  "name": "ui5-middleware-proxy-basicauth",
   "version": "0.0.1",
   "description": "UI5 Middleware Proxy with Basic auth",
   "author": "Koen Schouten",
