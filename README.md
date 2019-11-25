@@ -45,7 +45,7 @@ server:
     configuration:
       baseUri: "http://services.odata.org"
       auth: "yourusername:yourpassword"
-      client: 110
+      client: "110"
 ```
 
 ## How it works
