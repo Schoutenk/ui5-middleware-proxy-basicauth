@@ -1,6 +1,6 @@
 {
   "name": "ui5-middleware-proxy-basicauth",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "UI5 Middleware Proxy with Basic auth",
   "author": "Koen Schouten",
   "license": "Apache-2.0",
@@ -9,6 +9,7 @@
     "url": "https://github.com/Schoutenk/ui5-middleware-proxy-basicauth"
   },
   "dependencies": {    
-    "http-proxy": "^1.18.0"
+    "http-proxy": "^1.18.0",
+    "dotenv": "^8.2.0"
   }
 }
