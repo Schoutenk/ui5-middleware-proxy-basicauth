@@ -44,9 +44,12 @@ server:
     mountPath: /odata
     configuration:
       baseUri: "http://services.odata.org"
-      auth: "yourusername:yourpassword"
       client: "110"
 ```
+
+3. Set your username and password in your .env file
+PROXY_USERNAME=yourusername
+PROXY_PASSWORD=yourpassword
 
 ## How it works
 
